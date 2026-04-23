@@ -36,7 +36,7 @@ This probe targets Mend's lockfile-driven detection path for Paket. When a paket
 ## Expected dependency tree
 
 - All 20 direct packages must appear in the scan output at the top level.
-- Total resolved packages (direct + transitive) in the lockfile: 63.
+- Total resolved packages (direct + transitive) in the lockfile: 75.
 - No package should be absent from the reported tree — the probe validates no truncation occurs.
 - All packages belong to the default (Main) group.
 - Source: `https://api.nuget.org/v3/index.json` (single NuGet feed).

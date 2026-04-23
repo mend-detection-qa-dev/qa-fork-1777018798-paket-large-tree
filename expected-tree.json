@@ -1,6 +1,6 @@
 {
   "_comment": "Expected dependency tree for paket-large-tree probe. Direct dependencies only; children are not modelled to keep the file manageable. PLACEHOLDER fields must be substituted by the scan runner at comparison time. _total_expected_packages is checked separately against the total resolved package count reported by Mend.",
-  "_total_expected_packages": 63,
+  "_total_expected_packages": 75,
   "updateType": "OVERRIDE",
   "type": "UA",
   "agent": "paket",
