@@ -1,0 +1,25 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+strategy: max
+
+nuget Microsoft.EntityFrameworkCore >= 8.0.0
+nuget Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0
+nuget Serilog.AspNetCore >= 8.0.0
+nuget Serilog.Sinks.Console >= 5.0.0
+nuget Serilog.Sinks.File >= 5.0.0
+nuget AutoMapper >= 12.0.0
+nuget MediatR >= 12.0.0
+nuget FluentValidation >= 11.0.0
+nuget FluentValidation.DependencyInjectionExtensions >= 11.0.0
+nuget Polly >= 8.0.0
+nuget Polly.Extensions.Http >= 3.0.0
+nuget Swashbuckle.AspNetCore >= 6.5.0
+nuget Microsoft.Extensions.Http >= 8.0.0
+nuget Microsoft.Extensions.Caching.Memory >= 8.0.0
+nuget Microsoft.Extensions.Configuration.Json >= 8.0.0
+nuget Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.0
+nuget System.IdentityModel.Tokens.Jwt >= 7.0.0
+nuget Newtonsoft.Json >= 13.0.0
+nuget StackExchange.Redis >= 2.7.0
+nuget Dapper >= 2.1.0

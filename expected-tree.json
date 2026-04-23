@@ -1,0 +1,265 @@
+{
+  "_comment": "Expected dependency tree for paket-large-tree probe. Direct dependencies only; children are not modelled to keep the file manageable. PLACEHOLDER fields must be substituted by the scan runner at comparison time. _total_expected_packages is checked separately against the total resolved package count reported by Mend.",
+  "_total_expected_packages": 63,
+  "updateType": "OVERRIDE",
+  "type": "UA",
+  "agent": "paket",
+  "agentVersion": "PLACEHOLDER",
+  "pluginVersion": "PLACEHOLDER",
+  "orgToken": "PLACEHOLDER",
+  "userKey": "PLACEHOLDER",
+  "timeStamp": 0,
+  "requesterEmail": "PLACEHOLDER",
+  "aggregateModules": false,
+  "preserveModuleStructure": true,
+  "extraProperties": {
+    "contributionsAvailable": "PLACEHOLDER",
+    "commitUrl": "PLACEHOLDER",
+    "gitHubInstallationId": "PLACEHOLDER",
+    "scmApplicationId": "PLACEHOLDER",
+    "branchName": "main",
+    "checkRunId": "PLACEHOLDER",
+    "userOrgToken": "PLACEHOLDER",
+    "commitId": "PLACEHOLDER",
+    "scmInstallationId": "PLACEHOLDER",
+    "repository": "paket-large-tree",
+    "scaResults": "PLACEHOLDER"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["paket"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "UA"
+    }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "PLACEHOLDER",
+      "dependencies": [
+        {
+          "groupId": "",
+          "artifactId": "AutoMapper",
+          "version": "12.0.1",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Dapper",
+          "version": "2.1.28",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "FluentValidation",
+          "version": "11.9.2",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "FluentValidation.DependencyInjectionExtensions",
+          "version": "11.9.2",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "MediatR",
+          "version": "12.3.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+          "version": "8.0.6",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.EntityFrameworkCore",
+          "version": "8.0.6",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.EntityFrameworkCore.SqlServer",
+          "version": "8.0.6",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Extensions.Caching.Memory",
+          "version": "8.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Extensions.Configuration.Json",
+          "version": "8.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Extensions.Http",
+          "version": "8.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Polly",
+          "version": "8.4.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Polly.Extensions.Http",
+          "version": "3.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Serilog.AspNetCore",
+          "version": "8.0.2",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Serilog.Sinks.Console",
+          "version": "6.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Serilog.Sinks.File",
+          "version": "5.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "StackExchange.Redis",
+          "version": "2.7.33",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Swashbuckle.AspNetCore",
+          "version": "6.6.2",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "System.IdentityModel.Tokens.Jwt",
+          "version": "7.5.2",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        }
+      ]
+    }
+  ]
+}
